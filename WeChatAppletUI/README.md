@@ -1,18 +1,18 @@
 user
 ======
 
-�Ĵ���ѧ������ֲ� �û�ϵͳ��
+电脑报修用户系统。
 
-0. �˰汾��ʵ���˵����¼ API ����¼ҳ�������¼ API �ο� [api.md](api.md)����
+0. 此版本仅实现了单点登录 API 及登录页（单点登录 API 参考 [api.md](api.md)）。
 
-1. ʹ���� [Flight](http://flightphp.com) ��ܼ� [Medoo](https://medoo.in/) ���ݿ��ܡ�
+1. 使用了 [Flight](http://flightphp.com) 框架及 [Medoo](https://medoo.in/) 数据库框架。
 
-2. Ȩ�޹���Ϊ RBAC ģ�ͣ������¼��SSO���� Token-based��û���� JWT����
+2. 权限管理为 RBAC 模型，单点登录（SSO）是 Token-based（没有上 JWT）。
 
-3. �����˰����ƶ��źͼ���� SDK��
+3. 集成了阿里云短信和极验的 SDK。
 
-4. API ֧���ֻ���֤���¼����ҳ�����ޡ�
+4. API 支持手机验证码登录，网页版暂无。
 
-5. ����һЩδʹ�õ�ģ�飨�� Elasticsearch��΢�ţ���
+5. 包含一些未使用的模块（如 Elasticsearch，微信）。
 
-6. �����˻�Ա�������޻�Ա������
+6. 集成了会员表，但无会员管理。
